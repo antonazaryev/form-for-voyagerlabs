@@ -4,11 +4,6 @@ import '../styles/app.css';
 import Form from "./form";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-
-  }
-
   render() {
     return (
         <div className="app">
