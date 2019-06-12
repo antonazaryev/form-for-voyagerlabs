@@ -1,10 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import logo from '../assets/logo.svg';
 import '../styles/app.css';
 import Form from "./form";
 
-class App extends Component {
-  render() {
+export default function App() {
     return (
         <div className="app">
           <header className="app-header">
@@ -13,7 +12,4 @@ class App extends Component {
           <Form/>
         </div>
     );
-  }
 }
-
-export default App;
