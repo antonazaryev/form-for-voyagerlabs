@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+}
+
+.form-item {
+    width: 300px;
+    padding: 5px;
+}
+
+.form-submit {
+    position: relative;
+}
+
+.form-progress {
+    color: #4caf50;
+    position: absolute;
+    top: 50%;
+    left: 47px;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+.form-workspace-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
